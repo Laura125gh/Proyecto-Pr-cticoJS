@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Proyecto Práctico</title>
+</head>
+
+<body>
+    <header>
+        <div id="btn-oscuro"><button>
+                🌙modo oscuro
+            </button>
+        </div>
+    </header>
+    <main>
+        <h1 id="titulo">Proyecto Práctico</h1>
+        <!-- // mensaje del saludo  -->
+        <p id="saludo">
+            <script>
+                let nombre = prompt("Ingrese su nombre: ");
+                document.write(`¡Hola, ${nombre}! Bienvenido a tu panel.`);
+            </script>
+        </p>
+
+        <p class="intro">Podemos ver el tamaño de la
+            página, consultar información de la URL y el dominio, obtener nuestra ubicación, recargar la página y
+            utilizar el historial de navegación.
+            También podemos activar el modo oscuro
+            y realizar diferentes 
+            interacciones con los elementos de la página.
+            Además, podemos consultar el
+            idioma del navegador y
+            saber si estamos conectados o desconectados
+            de Internet. Esta información se puede
+            observar desde la consola del navegador.
+        </p>
+        <!-- ubicación -->
+        <button class="btn-ubicaion" onclick="obtenerUbicacion()">📍Obtener mi Ubicación</button>
+        <p id="ubicacion"></p>
+
+        <!-- Recargar la página-->
+        <button class="btn-info" onclick="mostrarinfo()">🔄Mostrar Información</button>
+        <p id="informacion"></p>
+
+        <!-- Recargar la página-->
+        <button class="btn-recargar" onclick="recargarpagina()">🌐Recargar página</button>
+
+    </main>
+    <footer></footer>
+</body>
+</html>

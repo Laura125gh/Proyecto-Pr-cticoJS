@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#titulo {
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.intro {
+    justify-content: center;
+    margin: 10px;
+    font-size: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+/* saludo */
+#saludo {
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+/* modo oscuro */
+#btn-oscuro {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#btn-oscuro button {
+    width: 120px;
+    height: 65px;
+    margin: 10px;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #1E3A5F;
+    color: white;
+}
+
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+
+/* ubicacion */
+.btn-ubicaion {
+    width: 220px;
+    height: 45px;
+    padding: 0;
+    margin: 10px;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #1E3A5F;
+    color: white;
+}
+
+#ubicacion {
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.Titulocolor {
+    color: #75a2dc;
+    cursor: pointer;
+}
+
+/* Más info */
+.btn-info {
+    width: 220px;
+    height: 45px;
+    padding: 0;
+    margin: 10px;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color:#1E3A5F;
+    color: white;
+
+}
+
+/* recargar */
+.btn-recargar {
+    width: 220px;
+    height: 45px;
+    padding: 0;
+    margin: 10px;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #1E3A5F;
+    color: white;
+
+
+}
