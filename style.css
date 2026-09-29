@@ -19,7 +19,8 @@ main {
     justify-content: center;
     margin: 10px;
     font-size: 20px;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
 }
 
@@ -104,6 +105,4 @@ main {
     cursor: pointer;
     background-color: #1E3A5F;
     color: white;
-
-
 }
