@@ -31,12 +31,12 @@ main {
     font-weight: bold;
 }
 /* modo oscuro */
-#btn-oscuro {
+.contenedor-btnmodooscuro {
     display: flex;
     justify-content: flex-end;
 }
 
-#btn-oscuro button {
+#btn-oscuro {
     width: 120px;
     height: 65px;
     margin: 10px;
